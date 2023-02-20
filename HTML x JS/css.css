@@ -4,6 +4,11 @@
     margin: auto;
     color: aqua;
     background-color: blue;
+}
 
-    
+.botaoFoda:hover {
+    margin: auto;
+    color: aquamarine;
+    background-color: blueviolet;
+    cursor: pointer;
 }
