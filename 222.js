@@ -6,3 +6,9 @@ let num4 = 0;
 /*
 crie variaveis usando let
 */
+
+{
+    let nome = "Adix";
+
+    alert(nome)
+}
