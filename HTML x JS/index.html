@@ -16,20 +16,31 @@
         Pokemon - RPG
     </h1>
     <script>
-        function disparo()
-        {
-            let top = "Ta salvado!"
-            alert(top)
-        }
-        var antes = "Ta salvado!";
-        var nome = "Adrian P. R.";
+        var random = ["Ta salvado!", "Ta salvado ", "Adrian"]
+        random[2] = "Didica"
+        random.push(" do baile")
 
-        console.log(antes + nome);
+        if (random[2] == "Adrian") {
+            console.log("Algo está errado..")
+        }
+        else if (random[2] == "Didica") {
+            console.log("Está tudo certo!")
+        }
+        else {
+            console.log("FUDEU")
+        }
+
+        if (random[2] != "Adrian") {
+            console.log("Você com certeza não é o Adrian")
+        }
+        else {
+            console.log("OMG!!! Hi Adrian!!!")
+        }
     </script>
-    <div class="janelaBotao">
-        <button class="botaoFoda" onclick="disparo()"> SALVE </button>
-    </div>
-    <p></p>
+    <label class="pokemon_label">
+        <img class="pokemon_imagem" src="projetoManagePokemon/sandshrew alola.jpg">
+        <p>Sandshrew (Alola)</p>
+    </label>
 </body>
 
 </html>
