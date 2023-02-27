@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+:root {
+    --corUniverso: #262240;
+    --corAbacate: #5C4162;
+    --corTigre: #4C8C72;
+    --corBanana: #5FD9AC;
+    --corGato: #025930;
+}
+
 .botaoFoda {
         font-style: normal;
         font-weight: bolder;
@@ -17,14 +25,11 @@
     margin: 10px 10px;
 }
 
-.tituloSite {
-    display: block;
-    align-items: center;
-    text-align: center;
+.rotuloSistema {
+    margin: 0px;
     padding: 10px;
-    background-color: aqua;
-}
-
-.baseSite {
-    width: 100%;
+    text-align: center;
+    background-color: var(--corUniverso);
+    color: white;
+    font-family: monospace;
 }
