@@ -38,7 +38,7 @@
     font-family: monospace;
 }
 
-.pokemon_label img  {
+.pokemon_label img {
     margin-top: 20px;
 }
 
@@ -53,7 +53,8 @@
     transition: transform 1s;
 }
 
-.pokemon_imagem:hover, .pokemon_imagem:focus {
+.pokemon_imagem:hover,
+.pokemon_imagem:focus {
     transition: border-radius 1s;
     border-radius: 15px;
     border-color: var(--corBanana);
