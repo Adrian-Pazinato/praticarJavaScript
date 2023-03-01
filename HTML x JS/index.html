@@ -17,14 +17,14 @@
     </h1>
     <script>
         var random = ["Ta salvado!", "Ta salvado ", "Adrian"]
-        // random[2] = "Didica"
+        random[2] = "Didica"
         random.push(" do baile")
 
         if (random[2] == "Adrian") {
             console.log("Algo está errado..")
         }
         else if (random[2] == "Didica") {
-            console.log("Está tudo certo!")
+            console.log("Está tudo certo! Didica está conosco")
         }
         else {
             console.log("FUDEU")
@@ -35,6 +35,19 @@
         }
         else {
             console.log("OMG!!! Hi Adrian!!!")
+        }
+
+        console.log("------------")
+
+        if(random[0] != "sasuke" && random[1] == "Ta salvado ") {
+            console.log("Salves foram dados, mas Sasuke está morto!")
+        }
+        else {
+            console.log("Estão todos tristes..")
+        }
+
+        if(random[3] == " do baile" || random[1] == "Sasuke"){
+            console.log("Ou o Sasuke voltou, ou o Didica está vindo..")
         }
     </script>
     <label class="pokemon_label">
