@@ -38,6 +38,24 @@
     font-family: monospace;
 }
 
-.pokemon_label .pokemon_imagem {
-    image-orientation: flip;
+.pokemon_label img {
+    margin-top: 20px;
+}
+
+.pokemon_imagem {
+    max-width: 160px;
+    max-height: 190px;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    border-style: groove;
+    border-color: var(--corTigre);
+    transition: transform 1s;
+}
+
+.pokemon_imagem:hover,
+.pokemon_imagem:focus {
+    transition: border-radius 1s;
+    border-radius: 15px;
+    border-color: var(--corBanana);
 }
