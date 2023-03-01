@@ -12,23 +12,6 @@
     background-color: #5C4162;
 }
 
-.botaoFoda {
-    font-style: normal;
-    font-weight: bolder;
-    font-size: 24px;
-    text-align: center;
-}
-
-.botaoFoda:hover {
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    cursor: pointer;
-}
-
-.janelaBotao {
-    margin: 10px 10px;
-}
-
 .rotuloSistema {
     margin: 0px;
     padding: 10px;
@@ -38,6 +21,22 @@
     font-family: monospace;
 }
 
-.pokemon_label .pokemon_imagem {
-    image-orientation: flip;
+.pokemon_label img {
+    max-width: 150px;
+    border-radius: 10px;
+    border-color: #000000;
+    border-style: solid;
+    margin-top: 10px;
+}
+
+.pokemon_label img:hover {
+    border-color: #4C8C72;
+    cursor: pointer;
+}
+
+.pokemon_label p {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color: antiquewhite;
 }

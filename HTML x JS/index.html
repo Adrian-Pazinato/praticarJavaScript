@@ -18,6 +18,7 @@
         var random = ["Ta salvado!", "Ta salvado ", "Adrian"]
         random[2] = "Didica"
         random.push(" do baile")
+        random.push("Adrian")
 
         if (random[2] == "Adrian") {
             console.log("Algo está errado..")
@@ -29,16 +30,35 @@
             console.log("FUDEU")
         }
 
+        console.log("--------------------")
+
         if (random[2] != "Adrian") {
             console.log("Você com certeza não é o Adrian")
         }
-        else {
+        else if (random[2] == "Adrian") {
             console.log("OMG!!! Hi Adrian!!!")
+        }
+
+        if (random[0] == "Ta salvado!" && random[1] == "Ta salvado ") {
+            console.log("Todos receberam salve")
+        } 
+        else {
+            console.log("Alguém não recebeu salve de forma correta..")
+        }
+
+        if (random[2] == "Didica" && random[4] == "Adrian") {
+            console.log("Por enquanto tudo em equilibrio")
+        }
+        else if (random[2] == "Didica" || random[4] == "Adrian") {
+            console.log("Algo está instavél")
+        }
+        else {
+            console.log("TEM ALGO MUITO ERRADO AQUI!")
         }
     </script>
     <label class="pokemon_label">
         <img class="pokemon_imagem" src="projetoManagePokemon/sandshrew alola.jpg">
-        <p>Sandshrew (Alola)</p>
+        <p class="pokemon_nome">Sandshrew (Alola)</p>
     </label>
 </body>
 
