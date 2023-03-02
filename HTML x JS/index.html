@@ -72,12 +72,26 @@
         function pegarNome(){
             return random[2]
             return random[3]
+
+            console.log("Você nunca me verá.....(pq a função termina no 'return')")
         }
 
         var nome = pegarNome()
 
         console.log(pegarNome)
         console.log(nome)
+
+        function nomeLegal (nomeLegal) {
+            if (nomeLegal == 1){
+                return "Paulinho"
+            }
+            else {
+                return "Nome merda hein.."
+            }
+        }
+        
+        var nomeLegal = nomeLegal(11);
+        console.log(nomeLegal);
     </script>
     <label class="pokemon_label">
         <img class="pokemon_imagem" src="projetoManagePokemon/sandshrew alola.jpg">
