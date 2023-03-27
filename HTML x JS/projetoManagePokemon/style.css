@@ -10,6 +10,8 @@
 
 .baseSite {
     background-color: #5C4162;
+    margin: 0px;
+    padding: 0px;
 }
 
 .rotuloSistema {
@@ -27,15 +29,23 @@
 
 }
 
+.Pokemon {
+    width: 105px;
+    height: 120px;
+}
+
 .PokemonFig {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 100%;
+    height: auto;
     width: 105px;
-    height: 105px;
     border-radius: 5px;
     border: 1px solid;
     transition: 0.5s;
+    padding: 0px;
+    margin: 0px;
 }
 
 .PokemonFig:hover {
@@ -45,6 +55,7 @@
 }
 
 .PokemonCaption {
+    display: flex;
     font-size: 14px;
     color: aliceblue;
     margin: 0px;
