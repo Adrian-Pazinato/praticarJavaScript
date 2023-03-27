@@ -26,3 +26,28 @@
     font-family: Arial, Helvetica, sans-serif;
 
 }
+
+.PokemonFig {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 105px;
+    height: 105px;
+    border-radius: 5px;
+    border: 1px solid;
+    transition: 0.5s;
+}
+
+.PokemonFig:hover {
+    transition: 0.5s;
+    border: 1px solid #5FD9AC;
+    cursor: pointer;
+}
+
+.PokemonCaption {
+    font-size: 14px;
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
