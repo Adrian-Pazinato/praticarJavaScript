@@ -8,7 +8,10 @@ crie variaveis usando let
 */
 
 {
-    let nome = "Adix";
+    let nome = "Adix"
+    let nome2 = "Didica"
 
-    alert(nome)
+    console.log(nome)
+    console.log(nome2)
+    console.log(num)
 }
