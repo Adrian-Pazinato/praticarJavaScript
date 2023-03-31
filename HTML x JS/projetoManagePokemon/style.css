@@ -43,7 +43,7 @@
     align-items: center;
     max-width: 100%;
     height: auto;
-    width: 105px;
+    width: 125px;
     border-radius: 5px;
     border: 1px solid;
     transition: 0.5s;
@@ -63,10 +63,13 @@
     color: aliceblue;
     margin: 0px;
     padding: 0px;
-    text-align: center;
+    justify-content: center;
 }
 
 .PartyPokemon {
     display: flex;
     width: 100%;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-start;
 }
