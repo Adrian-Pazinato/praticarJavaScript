@@ -9,12 +9,26 @@
 </head>
 
 <body>
-    <script>
+    <link rel="stylesheet" type="text/css" href="fancybox.css" />
+    <script src="fancybox.js"></script>
 
+    <script>
+        function abrirGaleria() {
+            const img = document.createElement("img");
+            img.src = "icon.png";
+
+            const imagem = document.getElementById("imagem");
+            imagem.appendChild(img);
+
+            $.fancybox.open({
+            });
+        }
     </script>
-    <div>
-        <img id="imagem" src="imagem.jpg" alt="Minha imagem" onclick="abrirGaleria()">
+
+    <div id="imagem">
+        <button onclick="abrirGaleria()">Selecionar Imagem</button>
     </div>
+
 </body>
 
 </html>
