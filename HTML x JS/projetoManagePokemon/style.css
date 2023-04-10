@@ -73,3 +73,20 @@
     flex-direction: row;
     align-items: flex-start;
 }
+
+#vida {
+    width: 200px;
+    height: 20px;
+    background-color: #ddd;
+}
+
+#barra {
+    height: 100%;
+    background-color: #4CAF50;
+}
+
+#barra {
+    height: 100%;
+    background-image: url("caminho/para/sua/imagem.png");
+    background-size: cover;
+  }

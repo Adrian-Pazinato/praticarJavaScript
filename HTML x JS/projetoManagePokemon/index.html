@@ -87,14 +87,20 @@
         var nomeLegal = nomeLegal(2);
         console.log(nomeLegal);
 
-                console.log("-----------------------")
+        console.log("-----------------------")
 
         var pokemon = ["Sandshrew", "Scizor", "Charmander", "Abra"]
 
-        pokemon.forEach(function(value, index){
+        pokemon.forEach(function (value, index) {
             console.log(value)
             console.log(index)
         })
+
+        function setWidth(percent) {
+            document.getElementById("barra").style.width = percent + "%";
+        }
+
+        setWidth(40);
 
     </script>
     <div class="PartyPokemon">
@@ -104,17 +110,24 @@
                 <figcaption>
                     <p class="PokemonCaption">Sandshrew Alola</p>
                 </figcaption>
+                <div id="vida">
+                    <div id="barra"></div>
+                </div>
             </figure>
         </div>
         <div class="Pokemon">
             <figure>
                 <img class="PokemonFig" src="Scizor.jpg">
                 <figcaption>
-                    <p class="PokemonCaption"></p>
+                    <p class="PokemonCaption">Scizor</p>
                 </figcaption>
+                <div id="vida">
+                    <div id="barra"></div>
+                </div>
             </figure>
         </div>
     </div>
+
 </body>
 
 </html>
