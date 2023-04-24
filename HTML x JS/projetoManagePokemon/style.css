@@ -82,13 +82,13 @@
 .barra {
     height: 100%;
     background-color: #4CAF50;
-    background-size: cover;
+    display: flex;
 }
 
 .Non-barra {
     height: 100%;
     background-color: #b82323;
-    background-size: cover;
+    display: flex;
 }
 
 figure {
