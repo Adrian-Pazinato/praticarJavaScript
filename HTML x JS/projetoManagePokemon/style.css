@@ -73,15 +73,21 @@
     align-items: flex-start;
 }
 
-#vida {
+.vida {
     width: 125px;
     height: 20px;
     background-color: #ddd;
 }
 
-#barra {
+.barra {
     height: 100%;
     background-color: #4CAF50;
+    background-size: cover;
+}
+
+.Non-barra {
+    height: 100%;
+    background-color: #b82323;
     background-size: cover;
 }
 
